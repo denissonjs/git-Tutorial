@@ -4,7 +4,7 @@ Pequeno tutorial resumido de como usar o Git e seus comandos.
 # Configurações iniciais do Git
 
 - Define nome do usuário atual: `git config --global user.name "Denisson Silva"`
-- Define email do usuário atual: `config --global user.email "denisson.js@outlook.com"`
+- Define email do usuário atual: `config --global user.email "denissonjs@outlook.com"`
 - Define/informa qual editor de codigo o usuário está utilizando: `git config --global core.editor visualStudio`
 - Retorna o nome do usuário atual: `git config user.name`
 - Retorna todas as informações cadastradas: `git config --list`
@@ -17,8 +17,7 @@ Pequeno tutorial resumido de como usar o Git e seus comandos.
 
 ## Trabalhando com branches
 - Criando nova branch: `git branch nome_da_branch`
-	-- Quando criamos uma nova branch, o que tinha na versão atual é copiada para a nova, inclusive os commits.
-	-- A partir daí, as alterações de uma branch, não alcançam a outra.
+	- Nota: Quando criamos uma nova branch, o que tinha na versão atual é copiada para a nova, inclusive os commits. A partir daí, as alterações de uma branch, não alcançam a outra.
 - Mudar de Branch: `git checkout nome_da_branch_destino`
 - Listar branches, onde a branch com '*' é a atual: `git branch`
 
